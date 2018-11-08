@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+/*初始化*/
+body,ul,li{ margin:0; padding:0 }
+/*头部菜单*/
+.header{ height:62px; position:fixed; width:100%; background:rgba(190,190,190,0.8);}
+.headermin{ height:62px; width:1200px; margin:0 auto; position:relative;}
+h1{ width:270px; height:35px; float:left; background:url(../images/LOGO270X35.png) no-repeat left center; margin-top:12px;}
+.headermin ul{ float:right; width:800px; height:38px; margin-top:12px; font:14px Verdana, Geneva, sans-serif;}
+.headermin li{ float:left; width:85px; display:inline-block; list-style:none; position:relative;}
+.headermin li a{ display:block; float:left; width:85px; color:#666; text-align:center; line-height:35px; height:35px;}
+.headermin li a:hover{ border:1px solid #F00; color:#F00; text-align:center; border-radius:3px;}
+.headermin .headermain{ display:block; height:35px; line-height:35px; background:#F00; border:1px solid #F00; color:#FFF;}
+.headermin .headermain a{ display:block; height:35px; line-height:35px; background:#F00; border:1px solid #F00; color:#FFF;}
+.headermin .headermain a:hover{ display:block; height:35px; line-height:35px; background:#F00; border:1px solid #F00; color:#FFF;}
+/*下拉菜单*/
+.headermin li ul{ width:200px; background:#CCC; height:auto; display:none; padding:10px; position:absolute;
+ margin-top:38px;}
+.headermin li ul li{ width:200px; background:#CCC; text-align:center;}
+.headermin li ul li a{ width:180px; height:35px; line-height:35px; padding:0 10px; text-align:left; border:0}
+.headermin li ul li a:hover{ width:180px; background:#333; color:#0F0;  text-align:left;}
+.headermin li:hover ul{ display:block;}
+
+/*banner广告图*/
+.banner{ margin:0 auto; height:400px;}
+
+/*内容*/
+.content{ height:500px; font:Verdana, Geneva, sans-serif;}
+.contentmin{ margin:0 auto; width:1200px;}
+/*左*/
+.contentlist{ width:550px; float:left; padding:10px 20px 0 20px; height:490px;}
+.titile1{ font:30px/60px Verdana, Geneva, sans-serif ; font-weight:bold; height:60px; color:#d0111a; width:360px; margin:40px; auto;}
+.contentlist1{ width:360px; margin:40px auto; height:280px;}
+.contentlist p{ line-height:1.9em; font-size:14px; }
+.btn0{ margin:0 auto; width:360px; text-align:center;}
+
+.btn{ background:#d0111a; border:1px solid #d0111a; padding:10px; color:#FFF; height:40px; text-align:center;}
+.btn a{  background:#d0111a; border:1px solid #d0111a; padding:10px; color:#FFF; height:40px; text-align:center;}
+.btn a:hover{ background:#d0111a; border:1px solid #d0111a; padding:10px; color:#FFF; height:40px; text-align:center;}
+/*右*/
+.bg-c{ background:#d0111a;}
+.titile2{ font:30px/60px Verdana, Geneva, sans-serif ; font-weight:bold; height:60px; color:#fff; width:360px; margin:40px; auto;}
+
+.btn1{ background:#d0111a; border:1px solid #fff; padding:10px; color:#FFF; height:40px; text-align:center;}
+.btn1 a{  background:#d0111a; border:1px solid #fff; padding:10px; color:#FFF; height:40px; text-align:center;}
+.btn1 a:hover{ background:#d0111a; border:1px solid #fff; padding:10px; color:#FFF; height:40px; text-align:center;}
+
+.contentlist1 ul{padding-left:15px;}
+.contentlist1 ul li{ color:#FFF; line-height:1.9em; font-size:14px; list-style:disc; padding-left:10px;}
+
+.tiny{width:100%; height:350px; background:#969696; padding-top:25px;}
+.tiny ul li{ float:left; margin-left:120px; margin-top:30px;} 
+.tiny1{font:24px Verdana, Geneva, sans-serif; margin-left:20px;}
+span{color:#F00; }
+
+.canner{width:100%; height:100px; background:#666; display:block; }
+.canner1{ font:18px Verdana, Geneva, sans-serif; color:#FFF;}
+.canner ul li{ list-style:none; float:left;}
+.san{margin-left:360px; font: 12px Verdana, Geneva, sans-serif;color:#FFF; list-style:none;}
+.san2{text-decoration:underline; margin-left:35px;}
